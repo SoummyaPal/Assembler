@@ -75,6 +75,17 @@ public class Pass1 {
                 bw.write("C \t"+s2+"\n");
                 locptr=Integer.parseInt(s2);
             }
+            
+            while((sCurrentLine=br.readLine())!=null){
+                int min_the_LC=0;
+                String type=null;
+                
+                int flag2=0; // checks whether the address is assigned to current sybmol
+                
+                String s=sCurrentLine.split(" |\\,")[0];
+                
+                for(Map.Entry=: symtab.entrySet())
+            }
 
 
         } catch (Exception e) {
